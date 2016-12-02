@@ -1,1 +1,1 @@
-# Navonod2301.github.io/LatinCard
+# Navonod2301.github.io/LatinCard/
