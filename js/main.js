@@ -1,3 +1,24 @@
+var text = document.createElement('div');
+text.style.position = 'absolute';
+text.style.top = '200px';
+text.style.left = '100px';
+text.style.fontSize = '30px';
+text.style.color = 'red';
+text.style.zIndex = 2;
+document.body.appendChild(text);
+
+var msg = 'Merry Christmas!';
+var counter = 0;
+
+function delayedLoop() {
+    text.innerHTML += msg[counter];
+    if (++counter == msg.length) {
+        return;
+    }
+    setTimeout(delayedLoop, 500);
+}
+delayedLoop();
+
 var snowflakes = [ ];
 
 function SnowFlake(){
