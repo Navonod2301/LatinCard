@@ -15,7 +15,7 @@ function delayedLoop() {
     if (++counter == msg.length) {
         return;
     }
-    setTimeout(delayedLoop, 200);
+    setTimeout(delayedLoop, 100);
 }
 delayedLoop();
 
