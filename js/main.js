@@ -7,7 +7,7 @@ text.style.color = 'red';
 text.style.zIndex = 1;
 document.body.appendChild(text);
 
-var msg = 'Habeatis beatum diem natalis Christi!';
+var msg = 'Hello World!';
 var counter = 0;
 
 function delayedLoop() {
