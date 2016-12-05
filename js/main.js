@@ -4,7 +4,7 @@ text.style.top = '200px';
 text.style.left = '100px';
 text.style.fontSize = '30px';
 text.style.color = 'red';
-text.style.zIndex = 2;
+text.style.zIndex = 1;
 document.body.appendChild(text);
 
 var msg = 'Merry Christmas!';
