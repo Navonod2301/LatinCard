@@ -4,7 +4,7 @@ text.style.top = '200px';
 text.style.left = '100px';
 text.style.fontSize = '30px';
 text.style.color = 'red';
-text.style.zIndex = 0;
+text.style.zIndex = 1;
 document.body.appendChild(text);
 
 var msg = 'Merry Christmas!';
@@ -27,7 +27,7 @@ function SnowFlake(){
   this.elem.style.position = 'absolute';
   this.elem.style.left = 1383*Math.random()-40 + 'px';
   this.elem.style.width = '28px';
-  this.elem.style.zIndex = 2;
+  this.z = 2;
   this.y = 0;
   this.Vy = 2*Math.random()+1.5;
   document.body.appendChild(this.elem);
