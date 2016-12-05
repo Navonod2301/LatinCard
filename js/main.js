@@ -29,6 +29,7 @@ function SnowFlake(){
   this.elem.style.width = '28px';
   this.y = 0;
   this.Vy = 2*Math.random()+1.5;
+  this.elem.style.zIndex = 2;
   document.body.appendChild(this.elem);
 }
 
