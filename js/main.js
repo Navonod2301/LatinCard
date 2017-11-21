@@ -23,7 +23,7 @@ var snowflakes = [ ];
 
 function SnowFlake(){
   this.elem = document.createElement('img');
-  this.elem.src = '../images/Snowflake.png';
+  this.elem.src = 'images/Snowflake.png';
   this.elem.style.position = 'absolute';
   this.elem.style.left = 1383*Math.random()-40 + 'px';
   this.elem.style.width = '28px';
