@@ -1,4 +1,4 @@
-var text = document.write('Spero te  liberum Saturnalia esse.\nFere cum libertis curras!');
+var text = document.createElement('dic');
 text.style.position = 'absolute';
 text.style.top = '200px';
 text.style.left = '100px';
@@ -6,6 +6,9 @@ text.style.fontSize = '30px';
 text.style.color = 'white';
 text.style.zIndex = 1;
 document.body.appendChild(text);
+
+var msg = 'Spero te  liberum Saturnalia esse.'+'\n'+'Fere cum libertis curras!'; 
+var counter = 0;
 
 function delayedLoop() {
     text.innerHTML += msg[counter];
