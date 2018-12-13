@@ -7,8 +7,7 @@ text.style.color = 'white';
 text.style.zIndex = 1;
 document.body.appendChild(text);
 
-var msg = 'Spero te  liberum Saturnalia esse. 
-Fere cum libertis curras!';
+var msg = 'Spero te  liberum Saturnalia esse. \n Fere cum libertis curras!';
 var counter = 0;
 
 function delayedLoop() {
