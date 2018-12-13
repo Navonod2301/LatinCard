@@ -10,6 +10,18 @@ document.body.appendChild(text);
 var msg = 'Spero te  liberum Saturnalia esse. Fere cum libertis curras!';
 var counter = 0;
 
+var text = document.createElement('div');
+text.style.position = 'absolute';
+text.style.top = '240px';
+text.style.left = '100px';
+text.style.fontSize = '30px';
+text.style.color = 'white';
+text.style.zIndex = 1;
+document.body.appendChild(text);
+
+var msg = 'Fere cum libertis curras!';
+var counter = 0;
+
 function delayedLoop() {
     text.innerHTML += msg[counter];
     if (++counter == msg.length) {
