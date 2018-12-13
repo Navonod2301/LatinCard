@@ -3,11 +3,11 @@ text.style.position = 'absolute';
 text.style.top = '200px';
 text.style.left = '100px';
 text.style.fontSize = '30px';
-text.style.color = 'red';
+text.style.color = 'white';
 text.style.zIndex = 1;
 document.body.appendChild(text);
 
-var msg = 'Habeatis beatum diem natalis Christi!';
+var msg = 'Spero te  liberum Saturnalia esse. Fere cum libertis curras!';
 var counter = 0;
 
 function delayedLoop() {
